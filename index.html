@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightblue;
+            background-image: url('abc.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .button3 {width: 90%;
+            
+            color: azure;
+            background-color: green;
+            font-size: 14px;
+            padding: 7px 7px;
+        }
+
+        .input01{
+            font-size: 15px;
+            padding: 7px 7px;
+        }   
+        img {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            }
+    </style>
+</head>
+
+<body>
+    <h2 style="color: rgb(255, 159, 16);"> YAV </h2>
+
+    <div style="padding-left:10%;padding-right: 15%; margin-top: 2%; border-color: crimson;border: 5ch;">
+        
+        <form style="background-color: aliceblue;" action="" method="get">
+            <br>
+
+            <div style="margin-left: 5%;margin-bottom: 5%;">
+                <h2></h2>
+                <h1 style="color: rgb(14, 94, 7); text-align: center; "> Book a Call </h1>
+                <img src="abc.jpg" width="100" height="140">
+                <h5 style="color: rgb(15, 20, 10); text-align: center; "> Book a call slot and our representative will call
+                    within 1hr of selected time </h5>
+
+                <label  >Name:</label><br>
+                <input class="input01" type="text" id="fname" name="fname" value="Enter name ..." size="100"><br><br>
+                <label>Email:</label><br>
+                <input class="input01" type="text" id="lname" name="lname" value="Enter Email id..." size="100"><br><br>
+                <label>Phone:</label><br>
+                <input class="input01" type="text" id="lname" name="lname" value="Enter Phone no.." size="100"><br><br>
+                <label >Time for call:</label><br>
+                <input class="input01" type="datetime" id="lname" name="lname"  size="100"><br><br>
+                <input class="button3" size="120" type="submit" value="Submit">
+                <br>
+            </div>
+            <br>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>
